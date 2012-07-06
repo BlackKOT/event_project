@@ -1,0 +1,11 @@
+%table
+  - @pict_with_comment.each do |pict|
+    %tr
+    %td=image_tag(pict.picture.url(:thumb))
+    -pict.comments.each do |comment|
+      %tr
+      %td=comment.content
+
+
+
+

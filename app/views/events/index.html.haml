@@ -1,0 +1,11 @@
+%table
+  -@users.each do |user|
+    %tr
+      %td= user.email
+      %td= link_to "navigation", event_navigation_path(user, :id => user.id)
+      %td= link_to "user sign in", event_signin_path(user, :id => user.id, :login => 1)
+      %td= link_to "user sign out", event_signout_path(user, :id => user.id, :login => 0)
+      %td= link_to "likes", event_like_path(user, :id => user.id)
+      %td= link_to "comments", event_comment_path(user, :id => user.id)
+
+

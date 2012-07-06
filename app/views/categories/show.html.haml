@@ -1,0 +1,6 @@
+- @pictures.each do |p|
+  = link_to image_tag(p.picture.url(:thumb)), pict_path(p, :name => @current_categ.name)
+
+= will_paginate @pictures
+
+

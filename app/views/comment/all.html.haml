@@ -1,0 +1,4 @@
+%table
+  - @all_comments.each do |comment|
+    %tr
+    %td= comment.user.email + "    " + comment.content

@@ -1,0 +1,48 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1341564210.2327304:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%ea8bd60fecc2fdbd2b6486a36094f536I"logical_path;
+FI"web_app_theme.css;
+TI"pathname;
+FI"3$root/app/assets/stylesheets/web_app_theme.css;
+FI"content_type;
+FI"text/css;
+FI"
+mtime;
+FI"2012-07-06T11:43:24+03:00;
+FI"	body;
+FI"§/* 
+ * This css will include all web-app-theme css you need
+ *
+ */
+
+/* Write here your css for overriding the theme's rules */
+#user-navigation {
+    color: #fff
+}
+;
+FI"asset_paths;
+F["}/home/kotenko/.rvm/gems/ruby-1.9.3-p0@1st_project/gems/web-app-theme-0.8.0/app/assets/stylesheets/web-app-theme/base.css"ç/home/kotenko/.rvm/gems/ruby-1.9.3-p0@1st_project/gems/web-app-theme-0.8.0/app/assets/stylesheets/web-app-theme/themes/drastic-dark/style.cssI"3$root/app/assets/stylesheets/web_app_theme.css;
+FI"dependency_paths;
+F[{I"	path;
+FI"3$root/app/assets/stylesheets/web_app_theme.css;
+FI"
+mtime;
+FIu:	Time»Äd·Ç≠
+:@_zoneI"	EEST;
+T:nano_numi
+:nano_deni:submicro"wÄ:offseti0*I"hexdigest;
+F"%e22050d838ef72b94c9000e971ba68b9{I"	path;
+F"}/home/kotenko/.rvm/gems/ruby-1.9.3-p0@1st_project/gems/web-app-theme-0.8.0/app/assets/stylesheets/web-app-theme/base.cssI"
+mtime;
+FIu;âÄXGT
+;I"	EEST;
+T;i>;i;"W@;i0*I"hexdigest;
+F"%c7ea9940d77be29316a6a6503e839ef0{I"	path;
+F"ç/home/kotenko/.rvm/gems/ruby-1.9.3-p0@1st_project/gems/web-app-theme-0.8.0/app/assets/stylesheets/web-app-theme/themes/drastic-dark/style.cssI"
+mtime;
+FIu;âÄ¯GT
+;I"	EEST;
+T;i?;i;"WP;i0*I"hexdigest;
+F"%29c239123288686de8bc6279ea22e487I"_version;
+F"%0868aba5d4b750d3a9421721ea3d9b9c

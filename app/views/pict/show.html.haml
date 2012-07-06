@@ -1,0 +1,19 @@
+= image_tag @pic.picture
+%br/
+- if (Like.where user_id: current_user.id, pict_id: @pic.id).empty?
+  = link_to "Like this", click_like_path(:pic => @pic.id), :method => 'post'
+  %br/
+
+-if @pic.like_count
+  = "#{@pic.like_count} people's liked"
+
+- @comments.each do |c|
+  <hr>
+  = c.content
+  = c.user.email
+
+
+= form_for @comment, :url => comment_path, :method => 'post' do |c|
+  =c.text_field :content
+  =c.hidden_field :pic, :value => @pic.id
+  =c.submit "Ok"

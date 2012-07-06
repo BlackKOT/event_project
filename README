@@ -1,0 +1,13 @@
+for upload pictures, run script in rails console in project folder
+
+for dir in Dir.glob('./pic_dir/*')
+  categ = Categories.new()
+  categ.name = dir.split("/").last
+  categ.save
+  Dir.glob(dir + "/*.jpg").entries.each do |file|
+    pict = Pict.new()
+    pict.categories_id = categ.id
+    pict.picture = File.open(file)
+    pict.save
+  end
+end
